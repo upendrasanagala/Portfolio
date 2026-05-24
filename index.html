@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upendra Sanagala | Data Analyst Portfolio</title>
+  <meta name="description"
+    content="Upendra Sanagala – Aspiring Data Analyst skilled in Python, SQL, Power BI. Explore projects, skills, and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- EmailJS SDK -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">US<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="mailto:upendrasanagala13@gmail.com" class="nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">&#127381; Open to Work</div>
+      <h1 class="hero-title">Hi, I'm <span class="gradient-text">Upendra Sanagala</span></h1>
+      <h2 class="hero-subtitle">Aspiring <span class="typewriter" id="typewriter"></span></h2>
+      <p class="hero-desc">Transforming raw data into powerful insights that drive business decisions. Passionate about
+        analytics, visualization.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-secondary">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">5+</span><span class="stat-label">Projects</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">7+</span><span class="stat-label">Tools Mastered</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">2+</span><span class="stat-label">Certifications</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="data-card glass">
+        <div class="dc-header"><span class="dc-dot green"></span> Sales Analysis</div>
+        <div class="bar-chart">
+          <div class="bar" style="--h:65%;--c:#6366f1"><span>Q1</span></div>
+          <div class="bar" style="--h:80%;--c:#8b5cf6"><span>Q2</span></div>
+          <div class="bar" style="--h:55%;--c:#06b6d4"><span>Q3</span></div>
+          <div class="bar" style="--h:90%;--c:#6366f1"><span>Q4</span></div>
+        </div>
+      </div>
+      <div class="data-card glass card-sm">
+        <div class="kpi"><span class="kpi-val">94.2%</span><span class="kpi-label">Model Accuracy</span></div>
+      </div>
+      <div class="data-card glass card-sm2">
+        <div class="kpi"><span class="kpi-val green-text">+38%</span><span class="kpi-label">Revenue Insight</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-tag">Who I Am</div>
+      <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+      <div class="about-grid">
+        <div class="about-img-wrap">
+          <div class="about-avatar">
+            <img src="upendra (2).jpg" alt="Upendra Sanagala" class="avatar-photo" />
+            <div class="avatar-ring"></div>
+            <div class="avatar-ring ring2"></div>
+          </div>
+          <div class="about-location glass"><span>&#128205;</span> Nuzvid, Andhra Pradesh</div>
+        </div>
+        <div class="about-text">
+          <p>I'm <strong>Upendra Sanagala</strong>, a passionate and driven <strong>Data Analyst</strong> fresher from
+            Nuzvid, Andhra Pradesh. I have a strong foundation in statistical analysis, data visualization
+            — translating complex datasets into clear, actionable insights.</p>
+          <p>I thrive at the intersection of data and decision-making. Whether it's building interactive dashboards,
+            writing optimized SQL queries, or building predictive models — I bring curiosity and precision to every
+            dataset I touch.</p>
+          <p>My goal is to join a forward-thinking team where I can apply my analytical mindset to solve real-world
+            business challenges and grow into a senior data professional.</p>
+          <div class="about-links">
+            <a href="https://linkedin.com/in/upendra-sanagala-301a63302" target="_blank"
+              class="about-link linkedin">&#128101; LinkedIn</a>
+            <a href="https://github.com/upendrasanagala" target="_blank" class="about-link github">&#128187; GitHub</a>
+            <a href="mailto:upendrasanagala13@gmail.com" class="about-link email">&#9993; Email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-tag">What I Know</div>
+      <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+      <div class="skills-categories">
+
+        <div class="skill-cat glass">
+          <div class="skill-cat-icon">&#128187;</div>
+          <h3>Programming</h3>
+          <div class="skill-pills">
+            <span class="pill">Python</span>
+            <span class="pill">SQL</span>
+            <span class="pill">R</span>
+          </div>
+          <div class="skill-levels">
+            <div class="skill-level-item"><span class="skill-name">Python</span>
+              <div class="level-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+              </div><span class="level-label beginner">Beginner</span>
+            </div>
+            <div class="skill-level-item"><span class="skill-name">SQL</span>
+              <div class="level-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+              </div><span class="level-label beginner">Beginner</span>
+            </div>
+            <div class="skill-level-item"><span class="skill-name">R</span>
+              <div class="level-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+              </div><span class="level-label beginner">Beginner</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-cat glass">
+          <div class="skill-cat-icon">&#128202;</div>
+          <h3>Visualization</h3>
+          <div class="skill-pills">
+            <span class="pill">Power BI</span>
+            <span class="pill">Tableau</span>
+            <span class="pill">Matplotlib</span>
+            <span class="pill">Seaborn</span>
+          </div>
+          <div class="skill-levels">
+            <div class="skill-level-item"><span class="skill-name">Power BI</span>
+              <div class="level-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+              </div><span class="level-label beginner">Beginner</span>
+            </div>
+            <div class="skill-level-item"><span class="skill-name">Tableau</span>
+              <div class="level-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+              </div><span class="level-label beginner">Beginner</span>
+            </div>
+            <div class="skill-level-item"><span class="skill-name">Matplotlib</span>
+              <div class="level-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+              </div><span class="level-label beginner">Beginner</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-cat glass">
+          <div class="skill-cat-icon">&#129302;</div>
+          <h3>Machine Learning</h3>
+          <div class="skill-pills">
+            <span class="pill">Scikit-learn</span>
+            <span class="pill">Pandas</span>
+            <span class="pill">NumPy</span>
+            <span class="pill">Statistics</span>
+          </div>
+          <div class="skill-levels">
+            <div class="skill-level-item"><span class="skill-name">Pandas</span>
+              <div class="level-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+              </div><span class="level-label beginner">Beginner</span>
+            </div>
+            <div class="skill-level-item"><span class="skill-name">Scikit-learn</span>
+              <div class="level-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+              </div><span class="level-label beginner">Beginner</span>
+            </div>
+            <div class="skill-level-item"><span class="skill-name">NumPy</span>
+              <div class="level-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+              </div><span class="level-label beginner">Beginner</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-cat glass">
+          <div class="skill-cat-icon">&#128451;</div>
+          <h3>Databases & Tools</h3>
+          <div class="skill-pills">
+            <span class="pill">MySQL</span>
+            <span class="pill">PostgreSQL</span>
+            <span class="pill">Excel</span>
+            <span class="pill">Git</span>
+          </div>
+          <div class="skill-levels">
+            <div class="skill-level-item"><span class="skill-name">MySQL</span>
+              <div class="level-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+              </div><span class="level-label beginner">Beginner</span>
+            </div>
+            <div class="skill-level-item"><span class="skill-name">Excel</span>
+              <div class="level-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+              </div><span class="level-label beginner">Beginner</span>
+            </div>
+            <div class="skill-level-item"><span class="skill-name">Git</span>
+              <div class="level-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span>
+              </div><span class="level-label beginner">Beginner</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-tag">What I've Built</div>
+      <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card glass featured">
+          <div class="featured-badge">⭐ Featured</div>
+          <div class="project-header">
+            <div class="project-icon" style="background:linear-gradient(135deg,#6366f1,#8b5cf6)">&#128200;</div>
+            <div class="project-tags"><span class="ptag">Python</span><span class="ptag">Pandas</span><span
+                class="ptag">Jupyter</span></div>
+          </div>
+          <h3>Retail Sales Performance Analysis</h3>
+          <p>Analyzed retail sales data to uncover revenue trends, top-performing products, and regional performance
+            patterns. Built interactive visualizations to support data-driven business decisions.</p>
+          <div class="project-metrics">
+            <div class="metric"><span class="metric-val">📊</span><span class="metric-label">EDA</span></div>
+            <div class="metric"><span class="metric-val green-text">Apr 2026</span><span
+                class="metric-label">Updated</span></div>
+          </div>
+          <a href="https://github.com/upendrasanagala/Retail-Sales-Performance-Analysis-Dashboard" target="_blank"
+            class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card glass featured">
+          <div class="featured-badge">⭐ Featured</div>
+          <div class="project-header">
+            <div class="project-icon" style="background:linear-gradient(135deg,#10b981,#06b6d4)">&#9889;</div>
+            <div class="project-tags"><span class="ptag">Python</span><span class="ptag">Matplotlib</span><span
+                class="ptag">Seaborn</span></div>
+          </div>
+          <h3>EV Charge &amp; Range Visualization</h3>
+          <p>Built a comprehensive visualization tool to analyze Electric Vehicle charging behavior and range patterns.
+            Explored correlations between battery capacity, charge duration, and driving range.</p>
+          <div class="project-metrics">
+            <div class="metric"><span class="metric-val">📈</span><span class="metric-label">Visualization</span></div>
+            <div class="metric"><span class="metric-val green-text">Apr 2026</span><span
+                class="metric-label">Updated</span></div>
+          </div>
+          <a href="https://github.com/upendrasanagala/Visualization-Tool-for-Electric-Vehicle-Charge-and-Range-Analysis"
+            target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card glass">
+          <div class="project-header">
+            <div class="project-icon" style="background:linear-gradient(135deg,#f59e0b,#ef4444)">&#127891;</div>
+            <div class="project-tags"><span class="ptag">Python</span><span class="ptag">Pandas</span><span
+                class="ptag">EDA</span></div>
+          </div>
+          <h3>Student Performance Factors</h3>
+          <p>Explored key factors affecting student academic performance. Identified correlations between study habits,
+            attendance, socioeconomic background, and exam scores using Python analytics.</p>
+          <div class="project-metrics">
+            <div class="metric"><span class="metric-val">🎓</span><span class="metric-label">Education</span></div>
+            <div class="metric"><span class="metric-val green-text">Mar 2026</span><span
+                class="metric-label">Updated</span></div>
+          </div>
+          <a href="https://github.com/upendrasanagala/student-performance-factors" target="_blank"
+            class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card glass">
+          <div class="project-header">
+            <div class="project-icon" style="background:linear-gradient(135deg,#8b5cf6,#ec4899)">&#127968;</div>
+            <div class="project-tags"><span class="ptag">Python</span><span class="ptag">Ridge</span><span
+                class="ptag">Lasso</span></div>
+          </div>
+          <h3>Real Estate Price Estimator</h3>
+          <p>Estimated housing prices using Ridge and Lasso regularized regression to reduce overfitting. Applied
+            feature engineering and cross-validation for robust and generalized price predictions.</p>
+          <div class="project-metrics">
+            <div class="metric"><span class="metric-val">ML</span><span class="metric-label">Regression</span></div>
+            <div class="metric"><span class="metric-val green-text">Feb 2026</span><span
+                class="metric-label">Updated</span></div>
+          </div>
+          <a href="https://github.com/upendrasanagala/Real-Estate-Price-Estimator" target="_blank"
+            class="project-link">View on GitHub →</a>
+        </div>
+
+      </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section section-dark" id="education">
+    <div class="container">
+      <div class="section-tag">My Background</div>
+      <h2 class="section-title">Education & <span class="gradient-text">Certifications</span></h2>
+      <div class="edu-grid">
+        <div class="edu-timeline">
+          <div class="edu-card glass">
+            <div class="edu-icon">&#127979;</div>
+            <div class="edu-content">
+              <span class="edu-year">2023 – 2026</span>
+              <h3>Bachelor of Technology</h3>
+              <p class="edu-inst">Information Technology</p>
+              <p class="edu-inst">Usha Rama College Of Engineering and Technology</p>
+              <p class="edu-inst">CGPA: 7.22</p>
+              <p class="edu-loc">&#128205; Telaprolu, Krishna District, Andhra Pradesh, India</p>
+            </div>
+          </div>
+          <div class="edu-card glass">
+            <div class="edu-icon">&#128218;</div>
+            <div class="edu-content">
+              <span class="edu-year">2018 – 2021</span>
+              <h3>Diploma in Electronics and Communications Engineering</h3>
+              <p class="edu-inst">State Board of Technical Education and Training</p>
+              <p class="edu-inst">Nuzvid Polytechnic College</p>
+              <p class="edu-inst">percentage : 67.88%</p>
+              <p class="edu-loc">&#128205; Nuzvid, Andhra Pradesh</p>
+            </div>
+          </div>
+          <div class="edu-card glass">
+            <div class="edu-icon">&#128218;</div>
+            <div class="edu-content">
+              <span class="edu-year">2017 – 2018</span>
+              <h3>SSC</h3>
+              <p class="edu-inst">State Board of Secondary Education</p>
+              <p class="edu-inst">Thrividha EM High School</p>
+              <p class="edu-inst">CGPA: 8.7</p>
+              <p class="edu-loc">&#128205; Nuzvid, Andhra Pradesh</p>
+            </div>
+          </div>
+        </div>
+        <div class="certs-grid">
+          <div class="cert-card glass">
+            <div class="cert-icon">&#127941;</div>
+            <h4>Google Data Analytics</h4>
+            <p>Udemy</p>
+          </div>
+          <div class="cert-card glass">
+            <div class="cert-icon">&#127941;</div>
+            <h4>Python for Data Science</h4>
+            <p>W3 SCHOOLS</p>
+          </div>
+          <div class="cert-card glass">
+            <div class="cert-icon">&#127941;</div>
+            <h4>SQL for Data Analysis</h4>
+            <p>W3 SCHOOLS</p>
+          </div>
+          <div class="cert-card glass">
+            <div class="cert-icon">&#127941;</div>
+            <h4>Power BI Desktop</h4>
+            <p>Microsoft Learn</p>
+          </div>
+          <div class="cert-card glass">
+            <div class="cert-icon">&#127941;</div>
+            <h4>EXCEL For Data Science</h4>
+            <p>W3 SCHOOLS</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-tag">Let's Connect</div>
+      <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+      <p class="contact-subtitle">I'm actively looking for Data Analyst opportunities. Whether you have a role, a
+        project, or just want to chat about data — my inbox is always open!</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="mailto:upendrasanagala13@gmail.com" class="contact-item glass">
+            <div class="ci-icon email-icon">&#9993;</div>
+            <div><span class="ci-label">Email</span><span class="ci-val">upendrasanagala13@gmail.com</span></div>
+          </a>
+          <a href="https://linkedin.com/in/upendra-sanagala-301a63302" target="_blank" class="contact-item glass">
+            <div class="ci-icon li-icon">in</div>
+            <div><span class="ci-label">LinkedIn</span><span class="ci-val">upendra-sanagala-301a63302</span></div>
+          </a>
+          <a href="https://github.com/upendrasanagala" target="_blank" class="contact-item glass">
+            <div class="ci-icon gh-icon">&#128187;</div>
+            <div><span class="ci-label">GitHub</span><span class="ci-val">github.com/upendrasanagala</span></div>
+          </a>
+          <div class="contact-item glass">
+            <div class="ci-icon loc-icon">&#128205;</div>
+            <div><span class="ci-label">Location</span><span class="ci-val">Nuzvid, Andhra Pradesh</span></div>
+          </div>
+        </div>
+        <form class="contact-form glass" id="contactForm">
+          <h3>Send a Message</h3>
+          <div class="form-group"><label>Your Name</label><input type="text" placeholder="John Doe" id="fname" /></div>
+          <div class="form-group"><label>Email</label><input type="email" placeholder="john@company.com" id="femail" />
+          </div>
+          <div class="form-group"><label>Message</label><textarea rows="4"
+              placeholder="I'd like to discuss a Data Analyst opportunity..." id="fmsg"></textarea></div>
+          <button type="submit" class="btn-primary full-w">Send Message &#10148;</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed & Built by <span class="gradient-text">Upendra Sanagala</span> &nbsp;|&nbsp; Data Analyst
+        &nbsp;|&nbsp; Nuzvid, AP</p>
+      <p class="footer-sub">&#169; 2025 All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
