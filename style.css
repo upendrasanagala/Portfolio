@@ -710,3 +710,74 @@ body {
   .certs-grid { grid-template-columns: 1fr; }
   .projects-grid { grid-template-columns: 1fr; }
 }
+
+/* =================== FLOATING ACTION BUTTON =================== */
+.floating-fab {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(99,102,241,0.5);
+  z-index: 999;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.floating-fab:hover {
+  transform: scale(1.1) translateY(-3px);
+  box-shadow: 0 15px 35px rgba(99,102,241,0.65), 0 0 15px rgba(6,182,212,0.4);
+}
+
+.floating-fab svg {
+  transition: transform 0.3s ease;
+}
+
+.floating-fab:hover svg {
+  transform: rotate(-10deg) scale(1.05);
+}
+
+/* Tooltip style */
+.fab-tooltip {
+  position: absolute;
+  right: 70px;
+  background: rgba(10, 15, 30, 0.9);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateX(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.floating-fab:hover .fab-tooltip {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Adjust position on small mobile screens */
+@media (max-width: 600px) {
+  .floating-fab {
+    bottom: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+  }
+  .fab-tooltip {
+    display: none; /* Hide tooltip on mobile touch */
+  }
+}
